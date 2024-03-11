@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grabbable {
+  flex: 0 !important;
+}
+
+.accordion__button {
+  background: none !important;
+  padding: 0px !important;
+  margin-bottom: 35px !important;
+}
+
+.accordion__button::before {
+  display: none !important;
+  border-bottom: none !important;
+}
+
+.accordion__item + .accordion__item{
+    border-top: none !important;
+}
